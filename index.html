@@ -25,16 +25,38 @@
       min-width: 100px;
       border-radius: 50%;
     }
+    .caption {
+      font-size: x-small;
+      text-align: end;
+    }
+    .container {
+      position: relative;
+    }
+    .centered {
+      max-width: 100%;
+      position: absolute;
+      top: 65%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
   </style>
 </head>
 
 <body class="styled-text">
   <main>
     <center>
-      <img src="img/kiss.png" class="fit" alt="KISS">
+      <figure class="container">
+        <img
+          src="https://d2r55xnwy6nx47.cloudfront.net/uploads/2023/03/KillingHorizons-byKristinaArmitage-Lede-scaled.webp"
+          class="fit" alt="KillingHorizons-byKristinaArmitage">
+        <img
+          src="https://see.fontimg.com/api/renderfont4/BxYl/eyJyIjoiZnMiLCJoIjoyMTIsInciOjE3NTAsImZzIjoxMjEsImZnYyI6IiNGRkZDRkMiLCJiZ2MiOiIjRkZGRkZGIiwidCI6MX0/SVNBQkVMTEEgTFU/dirtyboy.png"
+          class="centered" alt="Isabella Lu">
+        <figcaption class="caption">Kristina Armitage/Quanta Magazine</figcaption>
+      </figure>
     </center>
     <center>
-      <h1> Isabella Lu </h1>
+      <h1>A Personal website</h1>
       <h4>
         “I have never listened to anyone who criticized my taste in space travel, sideshows or gorillas. When this
         occurs, I pack up my dinosaurs and leave the room.”
@@ -66,6 +88,7 @@
     </p>
     <p>
       KISS is all I need.
+      <img src="img/kiss.png" style="height:16px;" alt="kiss">
     </p>
     <h2>
       Seriously now,
@@ -98,10 +121,6 @@
         </tr>
       </tbody>
     </table>
-    
-    
-    
-    
   </main>
   <hr>
   <h2> Future Plan for this website...</h2>
