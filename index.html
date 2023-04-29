@@ -13,25 +13,31 @@
       max-width: 100%;
       max-height: 100%;
     }
+
     .colored {
       background-color: blueviolet;
     }
+
     .styled-text {
       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
+
     .profile-pic {
       max-width: 90%;
       max-height: 200px;
       min-width: 100px;
       border-radius: 50%;
     }
+
     .caption {
       font-size: x-small;
       text-align: end;
     }
+
     .container {
       position: relative;
     }
+
     .centered {
       max-width: 100%;
       position: absolute;
@@ -39,11 +45,29 @@
       left: 50%;
       transform: translate(-50%, -50%);
     }
+
+    .toolbar {
+      position: fixed;
+      bottom: 2%;
+      width: 100%;
+      background-color: whitesmoke;
+      border-radius: 20px;
+      padding: 5px;
+      z-index:99;
+    }
   </style>
 </head>
 
 <body class="styled-text">
+
   <main>
+    <nav class="toolbar">
+      <center>
+        <a href="resume-21042023-isabella.pdf"><button>My Resume</button></a>
+        <a href="https://www.linkedin.com/in/isabella-lusicheng"><button>My LinkedIn</button></a>
+        <a href="https://github.com/Isabella-L"><button> My Github </button></a>
+      </center>
+    </nav>
     <center>
       <figure class="container">
         <img
@@ -75,9 +99,7 @@
       <i> index.html, v 1.0 2024/04/23 isabella-l</i>
       <br>
       <br>
-      <a href="resume-21042023-isabella.pdf"><button>My Resume</button></a>
-      <a href="https://www.linkedin.com/in/isabella-lusicheng"><button>My LinkedIn</button></a>
-      <a href="https://github.com/Isabella-L"><button> My Github </button></a>
+
       <br>
       <hr>
     </center>
