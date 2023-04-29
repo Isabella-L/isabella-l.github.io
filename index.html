@@ -13,16 +13,50 @@
       max-width: 100%;
       max-height: 100%;
     }
+    .colored {
+      background-color: blueviolet;
+    }
+    .styled-text {
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .profile-pic {
+      max-width: 90%;
+      max-height: 200px;
+      min-width: 100px;
+      border-radius: 50%;
+    }
+    .caption {
+      font-size: x-small;
+      text-align: end;
+    }
+    .container {
+      position: relative;
+    }
+    .centered {
+      max-width: 100%;
+      position: absolute;
+      top: 65%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
   </style>
 </head>
 
 <body>
   <main>
     <center>
-      <img src="kiss.png" class="fit" alt="KISS">
+      <figure class="container">
+        <img
+          src="https://d2r55xnwy6nx47.cloudfront.net/uploads/2023/03/KillingHorizons-byKristinaArmitage-Lede-scaled.webp"
+          class="fit" alt="KillingHorizons-byKristinaArmitage">
+        <img
+          src="https://see.fontimg.com/api/renderfont4/BxYl/eyJyIjoiZnMiLCJoIjoyMTIsInciOjE3NTAsImZzIjoxMjEsImZnYyI6IiNGRkZDRkMiLCJiZ2MiOiIjRkZGRkZGIiwidCI6MX0/SVNBQkVMTEEgTFU/dirtyboy.png"
+          class="centered" alt="Isabella Lu">
+        <figcaption class="caption">Kristina Armitage/Quanta Magazine</figcaption>
+      </figure>
     </center>
     <center>
-      <h1> Isabella Lu </h1>
+      <h1>A Personal website</h1>
       <h4>
         “I have never listened to anyone who criticized my taste in space travel, sideshows or gorillas. When this
         occurs, I pack up my dinosaurs and leave the room.”
@@ -48,28 +82,44 @@
       So here I am, finally ate that frog and set it up.
     </p>
     <p>
-      I love KISS website!
+      KISS is all I need.
+      <img src="img/kiss.png" style="height:16px;">
     </p>
     <h2>
       Seriously now,
     </h2>
-    <p>
-      I am a year 3 computer engineering student at National University of Singapore. 
-      I spent most of my time in robotics, specifically at The Bumblebee. 
-      We build autonomous submarines and surface vessels, its pretty cool, you should 
-      <a href="https://bumblebee.sg/">check it out</a>.
-    </p>
-    <p>
-      Mostly, I am still trying to find a place in the world. 
-      You know about undergrads, we have a lot of dreams but much less experiences. 
-      A little more research & development stuff is what I am looking for at the moment.
-    <p> 
-      By the way, I am in the midst of a 6-month internship with Airbus.
-      If you talk to me about it, you will realise how much I like the 
-      <a href="https://aircraft.airbus.com/en/aircraft/freighters/belugaxl">Belugas</a>. 
-      They are just amazing!
-    </p>
-    </p>
+    <table>
+      <tbody>
+        <tr>
+          <td>
+            <img src="img/face.jpg" class="profile-pic" alt="my face">
+          </td>
+          <td>
+            <p>
+              I am a year 3 computer engineering student at National University of Singapore.
+              I spent most of my time in robotics, specifically at The Bumblebee.
+              We build autonomous submarines and surface vessels, its pretty cool, you should
+              <a href="https://bumblebee.sg/">check it out</a>.
+            </p>
+            <p>
+              Mostly, I am still trying to find a place in the world.
+              You know about undergrads, we have a lot of dreams but much less experiences.
+              A little more research & development stuff is what I am looking for at the moment.
+            </p>
+            <p>
+              By the way, I am in the midst of a 6-month internship with Airbus.
+              If you talk to me about it, you will realise how much I like the
+              <a href="https://aircraft.airbus.com/en/aircraft/freighters/belugaxl">Belugas</a>.
+              They are just amazing!
+            </p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+
+
+
   </main>
   <hr>
   <h2> Future Plan for this website...</h2>
