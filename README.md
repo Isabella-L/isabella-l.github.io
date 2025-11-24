@@ -1,2 +1,2 @@
 # isabella-l.github.io
-My first website.
+My personal website
