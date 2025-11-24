@@ -2,9 +2,9 @@ name: Deploy to Github Pages
 
 on:
     push:
-        branches: [master]
+        branches: [release/hugo2025]
     pull_request:
-        branches: [master]
+        branches: [release/hugo2025]
 
 jobs:
     build:
