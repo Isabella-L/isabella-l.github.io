@@ -41,7 +41,7 @@ menu:
 comments: false
 ---
 
-Freshly out of the boat from one of the best junior colleges with an almost perfect A-level score, Bella find herself in unfamiliar territory again. The reason? She decided to challenge myself again -- this time by diving into a completely alien field: **computers**.
+Freshly out of the boat from one of the best junior colleges with an almost perfect A-level score, Bella find herself in unfamiliar territory again. The reason? She decided to challenge herself again -- this time by diving into a completely alien field: **computers**.
 
 From the ground up, She learned everything from electrical circuitry and transistor-level CPU design to data structures, algorithms, and computer vision. Somewhere along that journey, she also started building robots during the COVID years -- it eventually took her across the world to the United States, where they won championships every year from 2022 to 2024.
 
