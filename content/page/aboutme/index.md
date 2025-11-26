@@ -41,13 +41,13 @@ menu:
 comments: false
 ---
 
-Freshly out of the boat from one of the best junior colleges in Singapore with an almost perfect A-level score, I find myself in unfamiliar territory again. The reason? I decided to challenge myself again -- this time by diving into a completely alien field: computers.
+Freshly out of the boat from one of the best junior colleges with an almost perfect A-level score, Bella find herself in unfamiliar territory again. The reason? She decided to challenge myself again -- this time by diving into a completely alien field: **computers**.
 
-From the ground up, I learned everything from electrical circuitry and transistor-level CPU design to data structures, algorithms, and computer vision. Somewhere along that journey, I also started building robots during the COVID years -- it eventually took me across the world to the United States, where we won championships every year from 2022 to 2024.
+From the ground up, She learned everything from electrical circuitry and transistor-level CPU design to data structures, algorithms, and computer vision. Somewhere along that journey, she also started building robots during the COVID years -- it eventually took her across the world to the United States, where they won championships every year from 2022 to 2024.
 
-Things are great but I feel like I have more breath than depth, nor did I figure out my life direction. So I continued with a Master’s in Computer Science and took on a cybersecurity scholarship. That period pulled me deep into the rabbit hole of Linux systems and embodied AI. Now, one and a half years into my masters, I have gotten a clearer sense of what I want pursue.
+Things were okay but Bella felt like she have more breath than depth, nor did she figure out her life direction. So she continued with a Master’s in Computer Science and took on a cybersecurity scholarship. That period pulled her deep into the rabbit hole of Linux systems and embodied AI. Now, one and a half years into her masters, she have gotten a clearer sense of what she wants to pursue.
 
-For a long time, I didn’t know what I wanted -- only that I refused to fall behind in the Age of Digitalisation. I kept pushing, learning, and experimenting. I seem to have an endless curiosirty that constantly pushes me forward. That wind of curiosity has been the wind in my sails through this turbulant era, and I aim to become the best captain of my own life.
+For a long time, she didn’t know what she wanted -- only that she refused to fall behind in the Age of Digitalisation. She kept pushing, learning, and experimenting. An endless stream of curiosirty pushes her forward. That wind of curiosity has been the wind in her sails through this turbulant era, and she aims to become the best captain of her own life.
 
 <!-- To use this feature, add `links` section to frontmatter.
 
