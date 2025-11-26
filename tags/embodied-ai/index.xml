@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Embodied AI on Isabella Lu</title><link>https://demo.stack.jimmycai.com/tags/embodied-ai/</link><description>Recent content in Embodied AI on Isabella Lu</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 24 Nov 2025 01:47:28 +0800</lastBuildDate><atom:link href="https://demo.stack.jimmycai.com/tags/embodied-ai/index.xml" rel="self" type="application/rss+xml"/><item><title>SAA - Stealthy Adversarial Attack on Vision-Language-Action Models</title><link>https://demo.stack.jimmycai.com/p/saa/</link><pubDate>Mon, 24 Nov 2025 01:47:28 +0800</pubDate><guid>https://demo.stack.jimmycai.com/p/saa/</guid><description>&lt;img src="https://demo.stack.jimmycai.com/p/saa/cover.jpg" alt="Featured image of post SAA - Stealthy Adversarial Attack on Vision-Language-Action Models" /&gt;&lt;h2 id="overview-of-attack-methodology"&gt;Overview of Attack Methodology
+&lt;/h2&gt;$$
+\left\lVert f_\theta(v + \delta, l) - y^\text{true} \right\rVert_2 \ge \tau,\quad
+\mathcal{D}(v, v + \delta) \le \varepsilon
+$$&lt;p&gt;&lt;img src="https://demo.stack.jimmycai.com/p/saa/image.png"
+width="1081"
+height="426"
+srcset="https://demo.stack.jimmycai.com/p/saa/image_hu_574fd7ddbd030627.png 480w, https://demo.stack.jimmycai.com/p/saa/image_hu_24e851b32bd6416b.png 1024w"
+loading="lazy"
+alt="Overall SAA attack framework"
+class="gallery-image"
+data-flex-grow="253"
+data-flex-basis="609px"
+&gt;&lt;/p&gt;
+&lt;p&gt;Here we see two objectives defined:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The attack objective&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;$
+\left\lVert f_\theta(v + \delta, l) - y^\text{true} \right\rVert_2 \ge \tau,
+$&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol start="2"&gt;
+&lt;li&gt;The Stealth objective&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;$ \mathcal{D}(v, v + \delta) \le \varepsilon$&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Each objective are assigned with a threshold to define training optimal.&lt;/p&gt;
+&lt;p&gt;They are trained in an alternative optimization algorithm inspired by &lt;a class="link" href="https://arxiv.org/pdf/2012.05858" target="_blank" rel="noopener"
+&gt;SPAA&lt;/a&gt;, the algorithm is heavily altered to adapted to the adversarial need of VLA attacker.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://demo.stack.jimmycai.com/p/saa/algorithm.png"
+width="748"
+height="581"
+srcset="https://demo.stack.jimmycai.com/p/saa/algorithm_hu_ce35f828a53a8edd.png 480w, https://demo.stack.jimmycai.com/p/saa/algorithm_hu_4b0e89e9b1ebb2b8.png 1024w"
+loading="lazy"
+alt="SAA Algorithm"
+class="gallery-image"
+data-flex-grow="128"
+data-flex-basis="308px"
+&gt;&lt;/p&gt;
+&lt;p&gt;To understand more, you can check out my &lt;a class="link" href="https://demo.stack.jimmycai.com/saa-presentation.pdf" &gt;presentation&lt;/a&gt; or contact me at &lt;a class="link" href="mailto:lusicheng@u.nus.edu" &gt;lusicheng@u.nus.edu&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="simulation-experiment-result"&gt;Simulation Experiment Result
+&lt;/h2&gt;&lt;p&gt;UPL is applied to the LIBERO Spatial Suite, showing task failure due to discrepancy in action&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://demo.stack.jimmycai.com/p/saa/demo.png"
+width="1096"
+height="491"
+srcset="https://demo.stack.jimmycai.com/p/saa/demo_hu_247def53165e3406.png 480w, https://demo.stack.jimmycai.com/p/saa/demo_hu_dd704f9c6565b27c.png 1024w"
+loading="lazy"
+alt="Demonstration of task failure under perturbation"
+class="gallery-image"
+data-flex-grow="223"
+data-flex-basis="535px"
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;d_thr = 15&lt;/li&gt;
+&lt;li&gt;p_thr = 0.3&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="supplementary-training-information-report"&gt;Supplementary Training Information Report
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://demo.stack.jimmycai.com/p/saa/wnb.png"
+width="417"
+height="385"
+srcset="https://demo.stack.jimmycai.com/p/saa/wnb_hu_52a0cb8eac78e5cd.png 480w, https://demo.stack.jimmycai.com/p/saa/wnb_hu_89097af174547939.png 1024w"
+loading="lazy"
+alt="W&amp;B Training Report"
+class="gallery-image"
+data-flex-grow="108"
+data-flex-basis="259px"
+&gt;&lt;/p&gt;
+&lt;h2 id="photo-with-my-senior"&gt;Photo with my senior
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://demo.stack.jimmycai.com/p/saa/with_gck.jpg"
+width="4096"
+height="2304"
+srcset="https://demo.stack.jimmycai.com/p/saa/with_gck_hu_23d6377c0be6ec2a.jpg 480w, https://demo.stack.jimmycai.com/p/saa/with_gck_hu_c11c6b226d503e6.jpg 1024w"
+loading="lazy"
+alt="With Chongkai"
+class="gallery-image"
+data-flex-grow="177"
+data-flex-basis="426px"
+&gt;&lt;/p&gt;
+&lt;p&gt;My supervisor &lt;a class="link" href="https://www.comp.nus.edu.sg/cs/people/shaol/" target="_blank" rel="noopener"
+&gt;Prof Shao&lt;/a&gt; assigned one of his all mighty PhD to provide some support. Turns out, &lt;a class="link" href="https://chongkaigao.com/" target="_blank" rel="noopener"
+&gt;Chongkai&lt;/a&gt; is one of the best mentor I ever had. I appreciate his guidance very very much.&lt;/p&gt;
+&lt;!-- ## Guide on Finding a Professor
+## How to get started
+## Implementation
+## Someone that is really important --&gt;</description></item></channel></rss>

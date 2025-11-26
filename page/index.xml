@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pages on Isabella Lu</title><link>https://demo.stack.jimmycai.com/page/</link><description>Recent content in Pages on Isabella Lu</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 13 Nov 2025 01:47:28 +0800</lastBuildDate><atom:link href="https://demo.stack.jimmycai.com/page/index.xml" rel="self" type="application/rss+xml"/><item><title>About Me！</title><link>https://demo.stack.jimmycai.com/about-me/</link><pubDate>Thu, 13 Nov 2025 01:47:28 +0800</pubDate><guid>https://demo.stack.jimmycai.com/about-me/</guid><description>&lt;p&gt;Freshly out of the boat from one of the best junior colleges with an almost perfect A-level score, Bella find herself in unfamiliar territory again. The reason? She decided to challenge herself again &amp;ndash; this time by diving into a completely alien field: &lt;strong&gt;computers&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;From the ground up, She learned everything from electrical circuitry and transistor-level CPU design to data structures, algorithms, and computer vision. Somewhere along that journey, she also started building robots during the COVID years &amp;ndash; it eventually took her across the world to the United States, where they won championships every year from 2022 to 2024.&lt;/p&gt;
+&lt;p&gt;Things were okay but Bella felt like she have more breath than depth, nor did she figure out her life direction. So she continued with a Master’s in Computer Science and took on a cybersecurity scholarship. That period pulled her deep into the rabbit hole of Linux systems and embodied AI. Now, one and a half years into her masters, she have gotten a clearer sense of what she wants to pursue.&lt;/p&gt;
+&lt;p&gt;For a long time, she didn’t know what she wanted &amp;ndash; only that she refused to fall behind in the Age of Digitalisation. She kept pushing, learning, and experimenting. An endless stream of curiosirty pushes her forward. That wind of curiosity has been the wind in her sails through this turbulant era, and she aims to become the best captain of her own life.&lt;/p&gt;
+&lt;!-- To use this feature, add `links` section to frontmatter.
+This page's frontmatter:
+```yaml
+links:
+- title: GitHub
+description: GitHub is the world's largest software development platform.
+website: https://github.com
+image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
+- title: TypeScript
+description: TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.
+website: https://www.typescriptlang.org
+image: ts-logo-128.jpg
+```
+`image` field accepts both local and external images. --&gt;</description></item><item><title>File-System</title><link>https://demo.stack.jimmycai.com/archives/</link><pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate><guid>https://demo.stack.jimmycai.com/archives/</guid><description/></item><item><title>Search</title><link>https://demo.stack.jimmycai.com/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://demo.stack.jimmycai.com/search/</guid><description/></item></channel></rss>
